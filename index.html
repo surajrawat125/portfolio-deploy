@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suraj Singh | Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Suraj Singh, a B.Tech CSE student skilled in Java, SQL, and Front-End Development.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="background-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Suraj<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="greeting">Hello, I'm</span>
+                <h1>Suraj Singh</h1>
+                <p class="subtitle">Computer Science Engineer & Developer</p>
+                <p class="description">Passionate about utilizing technical, database, and management skills to drive
+                    organizational growth. Skilled in Java, SQL, and Front-End technologies.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image-container glass-card">
+                    <img src="assets/hero-bg.png" alt="Futuristic Tech Background" class="hero-img">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">About & Education</h2>
+            <div class="education-grid">
+                <div class="edu-card glass-card">
+                    <div class="year">2021 - Present</div>
+                    <h3>B.Tech CSE</h3>
+                    <p class="institution">Graphic Era Hill University, Dehradun</p>
+                    <p class="score">CGPA: 7.17 (Till 6th Sem)</p>
+                </div>
+                <div class="edu-card glass-card">
+                    <div class="year">12th Grade</div>
+                    <h3>PCM Stream</h3>
+                    <p class="institution">Army Public School Clement Town, Dehradun</p>
+                    <p class="score">Percentage: 79%</p>
+                </div>
+                <div class="edu-card glass-card">
+                    <div class="year">10th Grade</div>
+                    <h3>High School</h3>
+                    <p class="institution">Army Public School Clement Town, Dehradun</p>
+                    <p class="score">Percentage: 65%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-wrapper">
+                <div class="skill-category glass-card">
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span>C</span>
+                        <span>C++</span>
+                        <span>Java</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3>Technical</h3>
+                    <div class="skill-tags">
+                        <span>OOPS</span>
+                        <span>DSA</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Database (SQL)</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span>VS Code</span>
+                        <span>Power BI</span>
+                        <span>IntelliJ</span>
+                        <span>Android Studio</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card glass-card">
+                    <div class="project-image">
+                        <img src="assets/project-cancer.png" alt="AI Cancer Treatment App">
+                    </div>
+                    <div class="project-content">
+                        <h3>AI-Driven Personalized Cancer Treatment App</h3>
+                        <p>Developed a React app using ML to analyze patient data (genetic profiles, medical history)
+                            and recommend personalized treatment plans. Designed to predict outcomes and optimize
+                            therapy.</p>
+                        <div class="tags">
+                            <span>React</span>
+                            <span>ML</span>
+                            <span>Healthcare</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card glass-card">
+                    <div class="project-image">
+                        <img src="assets/project-car.png" alt="Used Car Price Prediction">
+                    </div>
+                    <div class="project-content">
+                        <h3>Used Car Price Prediction</h3>
+                        <p>A machine learning project using Logistic Regression to accurately predict used car prices
+                            based on attributes like make, model, year, mileage, and condition.</p>
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>ML</span>
+                            <span>Logistic Regression</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card glass-card">
+                    <div class="project-image">
+                        <img src="assets/project-notes.png" alt="Notes App">
+                    </div>
+                    <div class="project-content">
+                        <h3>Notes App</h3>
+                        <p>A simple yet effective Android application for managing daily tasks and ideas. Features a
+                            clean interface for creating, editing, and deleting notes.</p>
+                        <div class="tags">
+                            <span>Android Studio</span>
+                            <span>Java/Kotlin</span>
+                            <span>Mobile</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="section">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-card glass-card">
+                    <i class="fa-solid fa-chart-simple cert-icon"></i>
+                    <h3>Microsoft Power BI: A Complete Guide</h3>
+                    <p>Mastered Power BI tools, Desktop components, and Service for creating and publishing dashboards.
+                    </p>
+                </div>
+                <div class="cert-card glass-card">
+                    <i class="fa-solid fa-database cert-icon"></i>
+                    <h3>The Ultimate Guide to learn SQL</h3>
+                    <p>Comprehensive understanding of database structure, data types, and proficiency in SQL commands.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll
+                    try my best to get back to you!</p>
+                <div class="contact-links">
+                    <a href="mailto:surajwork125@gmail.com" class="contact-item glass-card">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>surajwork125@gmail.com</span>
+                    </a>
+                    <a href="tel:+918755894354" class="contact-item glass-card">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+91 8755894354</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/suraj-singh-ba7438293/" class="contact-item glass-card">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/surajrawat125" class="contact-item glass-card">
+                        <i class="fa-brands fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Suraj Singh. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
